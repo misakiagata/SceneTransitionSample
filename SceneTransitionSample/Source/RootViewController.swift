@@ -6,8 +6,6 @@ class RootViewController: UIViewController {
         case entrance
         case main
     }
-    
-
    
    class func show(_ viewType: ViewType, completion: (() -> Void)? = nil) {
        switch viewType {
@@ -15,7 +13,6 @@ class RootViewController: UIViewController {
            let ud = UserDefaults.standard
            ud.set(false, forKey: "isSignIn")
            UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController = EntranceViewController.instantiate()
-           
            completion?()
        case .main:
            let ud = UserDefaults.standard
@@ -23,9 +20,4 @@ class RootViewController: UIViewController {
            UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.rootViewController = TabBarController.build()
        }
    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
 }

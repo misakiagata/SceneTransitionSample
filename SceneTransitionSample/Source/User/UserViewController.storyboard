@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xIX-WR-kUc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User View Controller-->
+        <scene sceneID="bM9-XO-CgL">
+            <objects>
+                <viewController id="xIX-WR-kUc" customClass="UserViewController" customModule="SceneTransitionSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wuk-ol-SZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qz-IM-XkQ">
+                                <rect key="frame" x="179" y="433" width="56" height="30"/>
+                                <state key="normal" title="SignOut"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="2Qz-IM-XkQ" firstAttribute="centerX" secondItem="wuk-ol-SZ3" secondAttribute="centerX" id="9MP-KJ-mJO"/>
+                            <constraint firstItem="2Qz-IM-XkQ" firstAttribute="centerY" secondItem="wuk-ol-SZ3" secondAttribute="centerY" id="zEH-aD-U7U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rEM-k5-7QD"/>
+                    </view>
+                    <connections>
+                        <outlet property="signOutButton" destination="2Qz-IM-XkQ" id="OO5-ji-81J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SWE-OJ-9hZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+    </scenes>
+</document>

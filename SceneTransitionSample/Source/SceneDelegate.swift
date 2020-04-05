@@ -8,9 +8,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = RootViewController()
+            window.rootViewController = EntranceViewController.instantiate()
             self.window = window
             window.makeKeyAndVisible()
+        }
+        
+        let ud = UserDefaults.standard
+        if ud.bool(forKey: "isSignIn") {
+            RootViewController.show(.entrance)
+        } else {
+            RootViewController.show(.main)
         }
     }
 

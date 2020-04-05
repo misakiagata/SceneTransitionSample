@@ -24,7 +24,6 @@
 		A763C2DE2439DA2D007EB28E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C2DD2439DA2D007EB28E /* RootViewController.swift */; };
 		A763C2E02439DA58007EB28E /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C2DF2439DA58007EB28E /* NavigationController.swift */; };
 		A763C2E22439DBA2007EB28E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C2E12439DBA2007EB28E /* TabBarController.swift */; };
-		A763C2E42439E0CC007EB28E /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763C2E32439E0CC007EB28E /* UserManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		A763C2DD2439DA2D007EB28E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		A763C2DF2439DA58007EB28E /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		A763C2E12439DBA2007EB28E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		A763C2E32439E0CC007EB28E /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +140,6 @@
 				A763C2C62439D80F007EB28E /* Extension */,
 				A763C2B02439D780007EB28E /* AppDelegate.swift */,
 				A763C2B22439D780007EB28E /* SceneDelegate.swift */,
-				A763C2E32439E0CC007EB28E /* UserManager.swift */,
 				A763C2DD2439DA2D007EB28E /* RootViewController.swift */,
 				A763C2DF2439DA58007EB28E /* NavigationController.swift */,
 				A763C2E12439DBA2007EB28E /* TabBarController.swift */,
@@ -235,7 +232,6 @@
 				A763C2B32439D780007EB28E /* SceneDelegate.swift in Sources */,
 				A763C2C92439D83A007EB28E /* EntranceViewController.swift in Sources */,
 				A763C2DE2439DA2D007EB28E /* RootViewController.swift in Sources */,
-				A763C2E42439E0CC007EB28E /* UserManager.swift in Sources */,
 				A763C2C52439D802007EB28E /* Instantiatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

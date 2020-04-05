@@ -11,6 +11,6 @@ class EntranceViewController: UIViewController {
     }
 
     @objc private func didTapSignInButton(_: UIButton) {
-        UserManager.shared.signIn()
+        RootViewController.show(.main)
     }
 }

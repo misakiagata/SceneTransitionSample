@@ -11,6 +11,6 @@ class UserViewController: UIViewController {
     }
     
     @objc private func didTapSignOutButton(_: UIButton) {
-        UserManager.shared.signOut()
+        RootViewController.show(.entrance)
     }
 }

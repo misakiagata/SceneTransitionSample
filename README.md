@@ -7,3 +7,4 @@
 <img width="869" alt="スクリーンショット 2020-04-06 15 58 27" src="https://user-images.githubusercontent.com/40904974/78531081-bdb07980-781f-11ea-9462-7a00ec4fe189.png">
 
 ## Version2(feature)
+<img width="872" alt="スクリーンショット 2020-04-06 15 59 17" src="https://user-images.githubusercontent.com/40904974/78531105-c86b0e80-781f-11ea-926b-98f595dec721.png">
